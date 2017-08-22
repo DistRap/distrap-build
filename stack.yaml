@@ -1,0 +1,65 @@
+resolver: lts-9.1
+
+packages:
+# ivory
+- ivory/ivory/
+- ivory/ivory-artifact/
+- ivory/ivory-backend-c/
+- ivory/ivory-eval/
+- ivory/ivory-examples/
+- ivory/ivory-hw/
+- ivory/ivory-model-check/
+- ivory/ivory-opts/
+- ivory/ivory-quickcheck/
+- ivory/ivory-serialize/
+- ivory/ivory-stdlib/
+# tower
+- tower/tower/
+- tower/tower-aadl/
+- tower/tower-config/
+- tower/tower-hal/
+- tower/tower-mini/
+# tower-posix
+- ivory-tower-posix/
+# tower-stm32
+- ivory-tower-stm32/ivory-bsp-stm32/
+- ivory-tower-stm32/ivory-bsp-tests/
+- ivory-tower-stm32/ivory-freertos-bindings/
+- ivory-tower-stm32/tower-freertos-stm32/
+- ivory-tower-stm32/tower-freertos-stm32-tests/
+- ivory-tower-stm32/tower-echronos-stm32/
+# base
+- ivory-tower-base/
+# liveplot
+- liveplot/
+# can4disco
+- can4disco/
+# cidl
+- cidl/
+# canopen
+- ivory-tower-canopen/
+- ivory-tower-canopen/ivory-tower-canopen-core/
+- ivory-tower-canopen/schema/canopen-schema-tower/
+
+# TEMPORARY DEPS
+#
+- location:
+    git: https://github.com/sorki/Haskell-MVC-Library/
+    commit: 6c3b8870f9ef4d3d14dffba5199001acaf387c11
+  extra-dep: true
+
+- location:
+    git: https://github.com/jaredloomis/andromeda/
+    commit: 34c69c151aac69c5c6459fbe7caa5c235f98e6a2
+  extra-dep: true
+
+extra-deps:
+- th-abstraction-0.2.5.0
+- monadLib-3.7.3
+
+- GLUtil-0.9.1.1
+- Vec-1.0.5
+- vinyl-gl-0.3.1
+
+nix:
+  shell-file: shell.nix

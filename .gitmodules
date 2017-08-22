@@ -1,0 +1,33 @@
+[submodule "can4disco"]
+	path = can4disco
+	url = https://github.com/distrap/can4disco
+[submodule "can4disco-hw"]
+	path = can4disco-hw
+	url = https://github.com/distrap/can4disco-hw
+[submodule "ivory-tower-stm32"]
+	path = ivory-tower-stm32
+	url = https://github.com/sorki/ivory-tower-stm32/
+[submodule "ivory"]
+	path = ivory
+	url = https://github.com/GaloisInc/ivory
+[submodule "tower"]
+	path = tower
+	url = https://github.com/GaloisInc/tower
+[submodule "liveplot"]
+	path = liveplot
+	url = https://github.com/distrap/liveplot/
+[submodule "ivory-tower-base"]
+	path = ivory-tower-base
+	url = https://github.com/distrap/ivory-tower-base/
+[submodule "ivory-tower-posix"]
+	path = ivory-tower-posix
+	url = https://github.com/GaloisInc/ivory-tower-posix
+[submodule "cidl"]
+	path = cidl
+	url = https://github.com/distrap/cidl
+[submodule "ivory-tower-canopen"]
+	path = ivory-tower-canopen
+	url = https://github.com/distrap/ivory-tower-canopen
+[submodule "dumpster"]
+	path = dumpster
+	url = https://github.com/distrap/dumpster
