@@ -1,5 +1,9 @@
-#STACK=stack
-STACK=stack --nix
+OSNAME :=$(shell grep -o '^NAME=.*$$' /etc/os-release | cut -d'=' -f2 )
+ifeq ($(OSNAME),NixOS)
+       STACK=stack --nix
+else
+       STACK=stack
+endif
 
 all: schema
 	$(STACK) build
