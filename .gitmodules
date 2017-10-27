@@ -33,4 +33,4 @@
 	url = https://github.com/distrap/dumpster
 [submodule "ivory-tower-drivers"]
 	path = ivory-tower-drivers
-	url = ./ivory-tower-drivers
+	url = https://github.com/distrap/ivory-tower-drivers
